@@ -15,7 +15,14 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    
                 </div>
+            </div>
+
+            <div class="m-5 text-center">
+                <h3>
+                    <a href="{{route('admin.admin.index')}}">You managed to log, congratulations! <br> Check these 1992's records</a>
+                </h3>
             </div>
         </div>
     </div>
